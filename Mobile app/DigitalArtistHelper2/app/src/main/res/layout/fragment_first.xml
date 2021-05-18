@@ -11,18 +11,35 @@
         android:id="@+id/button_first"
         android:layout_width="159dp"
         android:layout_height="60dp"
-        android:background="#801921"
-        android:backgroundTint="#801921"
+        android:background="#C23833"
+        android:backgroundTint="#C23833"
         android:text="@string/Login"
         android:textColor="#201F1F"
         android:textSize="20sp"
-        app:iconTint="#801921"
+        app:iconTint="#C23833"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.782"
+        app:rippleColor="#801921" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_first2"
+        android:layout_width="159dp"
+        android:layout_height="34dp"
+        android:background="#C23833"
+        android:backgroundTint="#C23833"
+        android:text="Sign up"
+        android:textColor="#201F1F"
+        android:textSize="20sp"
+        app:iconTint="#C23833"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.911"
         app:rippleColor="#801921" />
 
     <TextView
@@ -97,5 +114,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="35dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="188dp"
+        android:layout_marginBottom="111dp"
+        android:text="or"
+        android:textColor="#D3CACA"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_first"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
