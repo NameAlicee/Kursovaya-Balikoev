@@ -22,6 +22,7 @@
         android:layout_height="wrap_content"
         android:background="@color/font_red"
         android:backgroundTint="@color/font_red"
+        android:backgroundTintMode="add"
         android:text="@string/previous"
         app:iconTint="@color/font_red"
         app:layout_constraintBottom_toBottomOf="parent"
