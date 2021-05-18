@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DigitalArtistHelper</string>
+    <string name="WelcomingMessage">Come in, stranger</string>
 </resources>

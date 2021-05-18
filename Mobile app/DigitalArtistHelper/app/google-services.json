@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "437775300605",
+    "project_id": "digital-artist-helper",
+    "storage_bucket": "digital-artist-helper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437775300605:android:bad3e2c93cc25c883f8b94",
+        "android_client_info": {
+          "package_name": "com.example.digitalartisthelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437775300605-depp949p9007dkm4caa38lgkn99v3s79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKuGfhz_hJIyb3S2okBLzDXdr4bg94KNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437775300605-depp949p9007dkm4caa38lgkn99v3s79.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
