@@ -1,0 +1,2 @@
+rootProject.name = "DigitalArtistHelper"
+include ':app'
