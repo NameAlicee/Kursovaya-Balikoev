@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333545"
+    tools:context=".RegisterUser">
+
+    <TextView
+        android:id="@+id/WelcomeRegister"
+        android:layout_width="380dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/WelcomingRegisterMessage"
+        android:textAlignment="center"
+        android:textColor="#F4EFF0"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:ems="10"
+        android:hint="How should i call you?"
+        android:textColorHint="#F4EFF0"
+        android:inputType="text"
+        android:textColor="#F4EFF0"
+        android:textSize="24sp"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WelcomeRegister"
+        />
+
+    <EditText
+        android:id="@+id/Age"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Your age?"
+        android:textColorHint="#F4EFF0"
+        android:inputType="text"
+        android:textColor="#F4EFF0"
+        android:textSize="24sp"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Name"
+        />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Email?"
+        android:textColorHint="#F4EFF0"
+        android:inputType="text"
+        android:textColor="#F4EFF0"
+        android:textSize="24sp"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Age"
+        />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Tell me your codeword"
+        android:textColorHint="#F4EFF0"
+        android:inputType="text"
+        android:textColor="#F4EFF0"
+        android:textSize="24sp"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

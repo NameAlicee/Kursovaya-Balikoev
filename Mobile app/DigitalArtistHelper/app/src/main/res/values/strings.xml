@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">DigitalArtistHelper</string>
     <string name="WelcomingMessage">Come in, stranger</string>
+    <string name="WelcomingRegisterMessage">Pleasure to meet you</string>
 </resources>
