@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333545"
+    tools:context=".UserScreen">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="106dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="660dp"
+        android:backgroundTint="#C23833"
+        android:text="log out"
+        android:textColor="#F4EFF0"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/userWelcome1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="187dp"
+        android:text="@string/UserWelcomingMessage"
+        android:textColor="#F4EFF0"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/userWelcome2"
+        android:layout_width="283dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="166dp"
+        android:layout_marginEnd="187dp"
+        android:text="@string/UserWelcomingMessage2"
+        android:textColor="#F4EFF0"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userWelcome1"
+        />
+
+    <Button
+        android:layout_width="106dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#F4EFF0"
+        android:backgroundTint="#C23833"
+        android:text="Home"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="106dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:text="Lections"
+        android:textSize="13sp"
+        android:textColor="#F4EFF0"
+        android:backgroundTint="#C23833"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="106dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#F4EFF0"
+        android:text="Tasks"
+        android:textSize="13sp"
+        android:backgroundTint="#C23833"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

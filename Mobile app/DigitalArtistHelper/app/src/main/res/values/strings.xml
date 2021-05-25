@@ -2,4 +2,6 @@
     <string name="app_name">DigitalArtistHelper</string>
     <string name="WelcomingMessage">Come in, stranger</string>
     <string name="WelcomingRegisterMessage">Pleasure to meet you</string>
+    <string name="UserWelcomingMessage">What a day,huh?</string>
+    <string name="UserWelcomingMessage2">Now lets draw something</string>
 </resources>

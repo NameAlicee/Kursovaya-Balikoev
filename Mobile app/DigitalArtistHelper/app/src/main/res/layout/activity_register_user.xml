@@ -11,7 +11,7 @@
         android:id="@+id/WelcomeRegister"
         android:layout_width="380dp"
         android:layout_height="74dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="56dp"
         android:text="@string/WelcomingRegisterMessage"
         android:textAlignment="center"
         android:textColor="#F4EFF0"
