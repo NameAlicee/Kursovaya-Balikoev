@@ -4,6 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#333545"
     tools:context=".Lections">
+    <Button
+        android:id="@+id/HomeButtonL"
+        android:layout_width="106dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#F4EFF0"
+        android:backgroundTint="#C23833"
+        android:text="Home"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/LectionButtonL"
+        android:layout_width="106dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:text="Lections"
+        android:textSize="13sp"
+        android:textColor="#F4EFF0"
+        android:backgroundTint="#C23833"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/TaskButtonL"
+        android:layout_width="106dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#F4EFF0"
+        android:text="Tasks"
+        android:textSize="13sp"
+        android:backgroundTint="#C23833"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

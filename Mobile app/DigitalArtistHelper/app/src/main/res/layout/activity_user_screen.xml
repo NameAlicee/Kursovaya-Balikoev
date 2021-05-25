@@ -8,7 +8,7 @@
     tools:context=".UserScreen">
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/LogOutButton"
         android:layout_width="106dp"
         android:layout_height="54dp"
         android:layout_marginTop="660dp"
