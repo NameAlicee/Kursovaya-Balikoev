@@ -53,6 +53,7 @@
         />
 
     <Button
+        android:id="@+id/HomeButton"
         android:layout_width="106dp"
         android:layout_height="54dp"
         android:layout_marginTop="16dp"
@@ -66,7 +67,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/LectionButton"
         android:layout_width="106dp"
         android:layout_height="54dp"
         android:layout_marginTop="16dp"
@@ -80,7 +81,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/TaskButton"
         android:layout_width="106dp"
         android:layout_height="54dp"
         android:layout_marginTop="16dp"
