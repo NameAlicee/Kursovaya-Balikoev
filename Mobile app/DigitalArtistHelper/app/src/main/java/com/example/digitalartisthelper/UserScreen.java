@@ -11,6 +11,7 @@ public class UserScreen extends AppCompatActivity implements View.OnClickListene
 
     private Button Lections;
     private  Button Tasks;
+    private  Button Logout;
 
 
     @Override
@@ -23,6 +24,9 @@ public class UserScreen extends AppCompatActivity implements View.OnClickListene
 
         Tasks = (Button) findViewById(R.id.TaskButton);
         Tasks.setOnClickListener(this);
+
+        Logout = (Button) findViewById(R.id.LogoutButton);
+        Logout.setOnClickListener(this);
     }
 
     @Override
@@ -35,6 +39,10 @@ public class UserScreen extends AppCompatActivity implements View.OnClickListene
 
             case R.id.TaskButton:
                 startActivity(new Intent(this, com.example.digitalartisthelper.Tasks.class));
+                break;
+
+            case R.id.LogoutButton:
+                startActivity(new Intent(this, com.example.digitalartisthelper.MainActivity.class));
                 break;
         }
 

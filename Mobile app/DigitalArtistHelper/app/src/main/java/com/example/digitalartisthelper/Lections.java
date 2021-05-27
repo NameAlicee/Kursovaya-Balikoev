@@ -112,8 +112,13 @@ public class Lections extends AppCompatActivity implements View.OnClickListener 
                 break;
 
             case R.id.lectlink2:
+                startActivity(new Intent(this,Lect3.class));
+                break;
+
+            case R.id.lectlink3:
                 startActivity(new Intent(this,Lect2.class));
                 break;
+
         }
 
     }
