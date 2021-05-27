@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DigitalArtistHelper">
-        <activity android:name=".Tasks"></activity>
+        <activity android:name=".Lect5"></activity>
+        <activity android:name=".Lect4" />
+        <activity android:name=".Lect3" />
+        <activity android:name=".Lect2" />
+        <activity android:name=".Lect1" />
+        <activity android:name=".Tasks" />
         <activity android:name=".Lections" />
         <activity android:name=".UserScreen" />
         <activity android:name=".RegisterUser" />

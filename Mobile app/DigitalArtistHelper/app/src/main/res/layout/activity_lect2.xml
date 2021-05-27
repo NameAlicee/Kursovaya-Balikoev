@@ -5,41 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#333545"
-    tools:context=".UserScreen">
-
-    <TextView
-        android:id="@+id/userWelcome1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="166dp"
-        android:layout_marginTop="320dp"
-        android:layout_marginEnd="187dp"
-        android:text="@string/UserWelcomingMessage"
-        android:textColor="#F4EFF0"
-        android:textSize="40sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
-
-    <TextView
-        android:id="@+id/userWelcome2"
-        android:layout_width="283dp"
-        android:layout_height="98dp"
-        android:layout_marginStart="166dp"
-        android:layout_marginEnd="187dp"
-        android:text="@string/UserWelcomingMessage2"
-        android:textColor="#F4EFF0"
-        android:textSize="40sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.44"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/userWelcome1"
-        />
+    tools:context=".Lect2">
 
     <Button
-        android:id="@+id/HomeButton"
+        android:id="@+id/HomeButtonL2"
         android:layout_width="106dp"
         android:layout_height="54dp"
         android:layout_marginTop="16dp"
@@ -53,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/LectionButton"
+        android:id="@+id/LectionButtonL2"
         android:layout_width="106dp"
         android:layout_height="54dp"
         android:layout_marginTop="16dp"
@@ -67,7 +36,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/TaskButton"
+        android:id="@+id/TaskButtonL2"
         android:layout_width="106dp"
         android:layout_height="54dp"
         android:layout_marginTop="16dp"
@@ -79,5 +48,36 @@
         app:layout_constraintHorizontal_bias="0.947"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="659dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HomeButtonL2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Итак, теперь приступим к основам. Координация руки это очень важная разминка, к которой следует сразу приучить себя.Хотя как правило разминочные упражнения и трактуются как медитативные, они могут порой вызывать самые драматические эмоции у новичков"
+                android:textColor="#F4EFF0"
+                android:textSize="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"/>
+
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

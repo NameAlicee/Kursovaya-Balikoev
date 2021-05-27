@@ -74,29 +74,21 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/ForgotPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="28dp"
-        android:text="Forgot your password,huh?"
-        android:textColor="#F4EFF0"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/SignIn" />
-
-    <TextView
         android:id="@+id/register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="48dp"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="148dp"
         android:text="Register"
         android:textColor="#F4EFF0"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintLeft_toRightOf="@+id/ForgotPassword"
-        app:layout_constraintTop_toTopOf="@+id/ForgotPassword" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignIn" />
 
     <ProgressBar
         android:id="@+id/progressBar"
