@@ -53,7 +53,7 @@
         android:layout_width="409dp"
         android:layout_height="659dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="25dp"
         android:layout_marginEnd="1dp"
 
         android:layout_marginBottom="1dp"
@@ -69,14 +69,13 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="388dp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="15sp"
                 android:text="Для начала необходимо определиться с основными вещами: Тебе нужна всего лишь одна вещь для рисования и это графический планшет со стилусом, поэтому для начала выберем какая модель и размеры тебе нужны"
                 android:textColor="#F4EFF0"
-                android:textSize="20sp"
-                android:layout_marginTop="20sp"
-                android:layout_marginLeft="15sp"
-                android:layout_marginRight="15sp"
-                />
+                android:textSize="20sp" />
         </LinearLayout>
     </ScrollView>
 

@@ -3,6 +3,7 @@ package com.example.digitalartisthelper;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
@@ -48,6 +49,7 @@ public class RegisterUser extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.registerUserButton:
                 registerUser();
+                startActivity(new Intent(this,UserScreen.class));
                 break;
         }
     }

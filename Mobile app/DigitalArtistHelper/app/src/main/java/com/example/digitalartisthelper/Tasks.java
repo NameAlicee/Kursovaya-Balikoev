@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -27,6 +28,8 @@ public class Tasks extends AppCompatActivity implements View.OnClickListener{
     DatabaseReference database;
      MyAdapterT myAdapterT;
      ArrayList<Task> listT;
+
+    private TextView task1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,6 +72,9 @@ public class Tasks extends AppCompatActivity implements View.OnClickListener{
 
         Lections = (Button) findViewById(R.id.LectionButtonT);
         Lections.setOnClickListener(this);
+
+        task1 = (TextView) findViewById(R.id.tasklink1);
+        task1.setOnClickListener(this);
     }
 
     @Override
@@ -82,6 +88,10 @@ public class Tasks extends AppCompatActivity implements View.OnClickListener{
 
             case R.id.LectionButtonT:
                 startActivity(new Intent(this, com.example.digitalartisthelper.Lections.class));
+                break;
+
+            case R.id.tasklink1:
+                startActivity(new Intent(this, Tas1.class));
                 break;
         }
 
